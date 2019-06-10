@@ -1,0 +1,22 @@
+{
+	"name": "apigee-proxy-generator",
+	"version": "1.0.0-alpha.0",
+	"description": "Proxy generator for Apigee Edge",
+	"main": "./generators/app/index.js",
+	"scripts": {},
+	"files": [
+		"generators"
+	],
+	"repository": {
+		"type": "git",
+		"url": ""
+	},
+	"author": "IHS Markit - Markit Digital",
+	"keywords": [
+		"yeoman-generator"
+	],
+	"license": "Apache-2.0",
+	"dependencies": {
+		"yeoman-generator": "^3.1.1"
+	}
+}

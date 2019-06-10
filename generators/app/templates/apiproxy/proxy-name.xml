@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="<%= name %>">
+    <!-- For the BasePath of the proxy look inside the <HTTPProxyConnection> element in proxies/default.xml -->
+    <!-- The below basepath does not effect the configuraion of the proxy -->
+    <!-- https://community.apigee.com/questions/57931/basepaths-attribute-in-main-xml-file.html -->
+    <Basepaths />
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <Description><%= description %></Description>
+    <DisplayName><%= name %></DisplayName>
+    <Policies>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec/>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
